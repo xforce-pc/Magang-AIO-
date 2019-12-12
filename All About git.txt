@@ -1,0 +1,37 @@
+//bekerja dengan git
+git init
+//menambahakan file ke work space
+git add . / git add nama file
+//menyimpan perubahan
+git commit -m "deklarasi perubahan"
+//membuat brach 
+git branch namabrach
+//menghapus branch
+git branch -d namabranch
+// menampilkan log
+git log
+//menampilkan og bentuk graph 
+git log --all --decorate --oneline graph
+//pindah brach atau commit
+git checkout <nama branch dan hash commit>
+//melakukan merge
+git merge nama brach
+//cloning repo
+git clone linkremote
+//remote melalui SSH ada di tutorial
+//http://guganeshan.com/blog/setting-up-git-and-tortoisegit-with-bitbucket-step-by-step.html
+
+//menghubungkan dengan remote di github
+git remote add origin link repo di git dengan readme kosog
+
+//otomatis upstream
+git push -u origin master
+
+//melakukan request ke server remote
+git push 
+
+//cek repo remote
+git fetch
+
+// sinkron remote & local
+git pull

@@ -1,0 +1,23 @@
+//install angular via npm
+npm install -g @angular/cli
+
+//untuk membuat komponen
+ng g component 
+
+//untuk membuat services
+ng g service 
+
+//untuk membuat pipe
+ng g pipe 
+
+//untuk membuat model
+ng g model 
+
+//untuk membuat class
+ng g class 
+
+//untuk membuat directive
+ng g directive 
+
+//untuk mendeploy project untuk nantinnya diletakan pada server. (hasil build terletak pada folder /dist)
+ng build –prod 
